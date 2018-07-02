@@ -1,4 +1,4 @@
-package scripts;
+package scripts.util;
 
 import org.powerbot.script.Condition;
 import org.powerbot.script.rt6.ClientContext;

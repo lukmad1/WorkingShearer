@@ -1,11 +1,11 @@
-package scripts;
+package scripts.util;
 
 import org.powerbot.script.ClientAccessor;
 import org.powerbot.script.ClientContext;
 
-public abstract class Task<C extends ClientContext> extends ClientAccessor<C> {
+public abstract class ActionTask<C extends ClientContext> extends ClientAccessor<C> {
 
-    public Task(C ctx) {
+    public ActionTask(C ctx) {
         super(ctx);
     }
 
